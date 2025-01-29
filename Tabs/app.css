@@ -2,17 +2,56 @@
   display: none;
 }
 
+.tab {
+  text-align: center;
+}
+
+.tab h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #333;
+}
+
+#menu-item {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+  flex-direction: column;
+}
+
 #container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  text-align: center;
 }
 
-#menu-1 img {
-  width: 5%;
+#menu-1 img,
+#menu-2 img {
+  width: 15%;
   height: auto;
+  border-radius: 10%;
+}
+
+#menu-1,
+#menu-2 {
+  justify-content: center;
+  display: flex;
+  gap: 10px;
+}
+
+#menu-1 h2,
+#menu-2 h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #333;
+}
+
+#menu-1 p,
+#menu-2 p {
+  font-size: 1.2rem;
+  color: #333;
 }
 
 /* Button */
