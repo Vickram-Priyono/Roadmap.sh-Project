@@ -2,6 +2,32 @@
   display: none;
 }
 
+nav {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "logo nav nav2";
+}
+
+#logo {
+  grid-area: logo;
+}
+
+#logo img {
+  width: 20%;
+  height: auto;
+  margin-left: 10%;
+}
+
+#btn-container {
+  grid-area: nav;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
 .tab {
   text-align: center;
 }
